@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "LiberationSerifBold";
+    src: url("../fonts/LiberationSerifBold/LiberationSerifBold.eot");
+    src: url("../fonts/LiberationSerifBold/LiberationSerifBold.eot?#iefix")format("embedded-opentype"),
+        url("../fonts/LiberationSerifBold/LiberationSerifBold.woff") format("woff"),
+        url("../fonts/LiberationSerifBold/LiberationSerifBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+:root {
+    --main-text-color: #000000;
+    --accent-color: #ffffff;
+    --title-font: 'Liberation Serif';
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 18px;
+    line-height: 1.78;
+    color: var(--main-text-color);
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.list {
+    list-style: none;
+}
+
+.button {
+        font-size: 12px;
+        line-height: 1.17;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    
+        color: var(--main-text-color);
+}
+
+.page-title {
+    font-family: var(--title-font);
+    font-size: 73px;
+    line-height: 1.32;
+}
+
+.section-title {
+    font-family: var(--title-font);
+    font-size: 64px;
+    line-height: 1.25;
+}
