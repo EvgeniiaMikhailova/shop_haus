@@ -27,6 +27,11 @@ body {
     color: inherit;
 }
 
+/*.link:hover,
+.link:focus {
+   color: ; 
+}  */
+
 .list {
     list-style: none;
 }
@@ -40,6 +45,14 @@ body {
         color: var(--main-text-color);
 }
 
+.link-list {
+    font-size: 12px;
+    line-height: 1.50;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--accent-color);
+}
+
 .page-title {
     font-family: var(--title-font);
     font-size: 73px;
@@ -50,4 +63,23 @@ body {
     font-family: var(--title-font);
     font-size: 64px;
     line-height: 1.25;
+}
+
+.text {
+    font-size: 18px;
+    line-height: 1.78;
+    color: var(--main-text-color);
+}
+
+.footer-nav {
+        font-size: 16px;
+        line-height: 1.5;
+        color: rgba(255, 255, 255, 0.6);
+}
+
+.drink-name {
+    font-family: var(--title-font);
+        font-size: 30px;
+        line-height: 1.47;
+        color: var(--main-text-color);
 }
